@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import type { Player, Mode } from "@/app/page";
 

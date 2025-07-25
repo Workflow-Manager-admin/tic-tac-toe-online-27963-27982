@@ -1,3 +1,4 @@
+"use client";
 import { useState, useEffect } from "react";
 import type { Player, Mode } from "@/app/page";
 import GameStatus from "./GameStatus";

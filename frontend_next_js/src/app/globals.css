@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Project theme colors for easy CSS access */
+  --color-primary: #1e293b;
+  --color-secondary: #64748b;
+  --color-accent: #ef4444;
 }
 
 @theme inline {

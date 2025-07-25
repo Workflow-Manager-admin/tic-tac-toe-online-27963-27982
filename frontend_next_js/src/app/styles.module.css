@@ -1,0 +1,25 @@
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  color: var(--foreground);
+  /* Theming with custom colors */
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+/* Responsive Board styling */
+@media (max-width: 650px) {
+  .main {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
